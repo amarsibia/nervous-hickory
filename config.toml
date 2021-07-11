@@ -1,0 +1,148 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Hugo Future Imperfect"
+theme = "hugo future imperfect"
+preserveTaxonomyNames = true
+paginate = 3
+disqusShortname = "shortname"
+googleAnalytics = ""
+pluralizeListTitles = false
+enableRobotsTXT = true
+canonifyURLs = true
+themesDir = "themes"
+baseURL = ""
+publishDir = "public"
+
+[params]
+description = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+navbarTitle = "Future Imperfect"
+viewMorePostLink = "/blog/"
+dynamicTitles = true
+rssAppearAtTop = true
+rssAppearAtBottom = true
+socialAppearAtTop = true
+socialAppearAtBottom = true
+categoriesByCount = true
+showSidebarCategories = true
+includeReadingTime = true
+loadFavicon = false
+faviconVersion = ""
+socialShare = true
+socialShareTwitter = true
+socialShareGoogleplus = true
+socialShareFacebook = true
+socialShareReddit = true
+socialShareLinkedin = true
+socialShareStumbleupon = true
+socialSharePinterest = true
+socialShareEmail = true
+customCSS = [ "default" ]
+customJS = [ "default" ]
+disable_highlight = false
+highlightjsVersion = "9.11.0"
+highlightjsCDN = "//cdn.bootcss.com"
+highlightjsLang = [ "r", "yaml", "css" ]
+highlightjsTheme = "github"
+MathJaxCDN = "//cdn.bootcss.com"
+MathJaxVersion = "2.7.1"
+
+  [params.staticman]
+  staticman = false
+  username = ""
+  repo = ""
+  branch = ""
+
+    [params.staticman.recaptcha]
+    sitekey = "SITE_KEY"
+    secret = "ENCRYPTED_SECRET"
+
+  [params.intro]
+  header = "Hugo Future Imperfect"
+  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+  about = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+
+    [params.intro.pic]
+    src = "/img/main/logo.jpg"
+    circle = false
+    imperfect = true
+    width = ""
+    alt = "Hugo Future Imperfect"
+
+  [params.postAmount]
+  sidebar = 5
+
+[[menu.main]]
+name = "Home"
+url = "/"
+identifier = "fa fa-home"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+identifier = "fa fa-id-card-o"
+weight = 2
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+identifier = "fa fa-newspaper-o"
+weight = 3
+
+[[menu.main]]
+name = "Itemized"
+url = "/itemized/"
+identifier = "fa fa-list"
+weight = 4
+
+[[menu.main]]
+name = "Categories"
+url = "/categories/"
+identifier = "fa fa-sitemap"
+weight = 5
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+identifier = "fa fa-envelope-o"
+weight = 6
+
+[social]
+github = "jpescador/hugo-future-imperfect"
+gitlab = ""
+stackoverflow = ""
+bitbucket = ""
+jsfiddle = ""
+codepen = ""
+deviantart = ""
+flickr = "example"
+behance = ""
+dribbble = ""
+wordpress = ""
+medium = ""
+linkedin = "example"
+linkedin_company = "examplebusiness"
+foursquare = ""
+xing = ""
+slideshare = ""
+facebook = "example"
+googleplus = ""
+reddit = "example"
+quora = ""
+youtube = ""
+vimeo = ""
+whatsapp = ""
+wechat = ""
+qq = ""
+instagram = "example"
+tumblr = ""
+twitter = "example"
+skype = ""
+snapchat = ""
+pinterest = "example"
+telegram = "example"
+vine = ""
+googlescholar = ""
+orcid = ""
+researchgate = "example"
+email = "example"
