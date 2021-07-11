@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Hugo Future Imperfect"
+title = "Amar Sibia"
 theme = "hugo future imperfect"
 preserveTaxonomyNames = true
 paginate = 3
