@@ -15,7 +15,7 @@ publishDir = "public"
 
 [params]
 description = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
-navbarTitle = "Future Imperfect"
+navbarTitle = "Amar Sibia"
 viewMorePostLink = "/blog/"
 dynamicTitles = true
 rssAppearAtTop = true
